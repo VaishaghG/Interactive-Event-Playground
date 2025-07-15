@@ -49,7 +49,6 @@ body{
 }
 
 #rst{
-    -webkit-tap-highlight-color: transparent;
     background-color: green;
     color: white;
     width: 5vw;
@@ -100,7 +99,6 @@ p {
 
 
 #bg{
-    -webkit-tap-highlight-color: transparent;
     background-color: green;
     color: white;
     width: 7vw;
@@ -117,10 +115,10 @@ p {
 
 @media (max-width:430px){
  .sqr{
-    width: 60vw;
+    width: 75vw;
  }
  #txtbox{
-    width:45vw;
+    width:55vw;
     font-size: 10px;
  }
 
@@ -129,13 +127,14 @@ p {
     max-width: 40vw;
  }
  #rst{
-    left:25%;
+    left:20%;
     width: 20vw;
     font-size: 12px;
  }
 
  #bg{
-    right: 25%;
+    padding: 12px;
+    right: 20%;
     width: 25vw;
     font-size: 12px;
  }
