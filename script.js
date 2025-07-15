@@ -25,5 +25,9 @@ bkground.addEventListener('click',function(e){
 })
 
 resetbtn.addEventListener('click',function(e){
-    location.reload();
+    txt.value="";
+    dis.textContent=txt.value;
+    document.body.style.backgroundColor= "rgb(0, 112, 0)";
+    bkground.style.backgroundColor="rgb(0, 112, 0)";
+    resetbtn.style.backgroundColor="rgb(0, 112, 0)";
 })
