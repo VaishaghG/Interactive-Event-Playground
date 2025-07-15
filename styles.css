@@ -49,6 +49,7 @@ body{
 }
 
 #rst{
+    -webkit-tap-highlight-color: transparent;
     background-color: green;
     color: white;
     width: 5vw;
@@ -99,6 +100,7 @@ p {
 
 
 #bg{
+    -webkit-tap-highlight-color: transparent;
     background-color: green;
     color: white;
     width: 7vw;
